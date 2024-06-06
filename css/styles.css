@@ -769,7 +769,7 @@ fill: transparent;
 
 
 
-.input-check:checked > .check-span {
+.input-check:checked + .checkbox-label > .check-span {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;

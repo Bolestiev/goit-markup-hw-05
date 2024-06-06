@@ -20,6 +20,18 @@ ul {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.image {
+  display: block;
+}
+
 /* -----------HEADER------------------ */
 
 .container-header {
@@ -381,12 +393,12 @@ ul {
   padding: 0;
   margin: 0;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .list-section-four:hover .overlay-text {
   transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .payment-overlay {
@@ -517,16 +529,67 @@ ul {
   fill: #f4f4fd;
 }
 
+.footer-subscribe {
+  margin-left: 80px;
+}
+
+.subscribe-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.form-footer {
+  display: flex;
+  gap: 24px;
+}
+
+.label-footer {
+}
+
+.input-footer {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.input-footer::placeholder {
+  color #ffffff;
+}
+
+
+.btn-subscribe {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+}
+
+.svg-subscribe {
+  margin-left: 16px;
+}
+
+
 /* ------------------------------------------------------ */
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-.image {
-  display: block;
-}
